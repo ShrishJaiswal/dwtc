@@ -1,0 +1,13 @@
+assemble:
+    -   from: vite-build
+        into: static
+dwtc-common-utility:
+    friendlyURLMapping: dwtc-common-utility
+    htmlElementName: dwtc-common-utility
+    instanceable: false
+    name: Dwtc Common Utility
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        -   assets/*.js
+    useESM: true
